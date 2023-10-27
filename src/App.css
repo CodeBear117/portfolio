@@ -1,38 +1,121 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FCF5ED;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(10px + 1vmin);
+  color: black; 
 }
 
-.App-link {
-  color: #61dafb;
+.mainrow-1 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: 100px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row-1col-1 {
+  grid-row: 2;
+  /*background-color: #274254;*/
+}
+
+.row-1col-2 {
+  grid-row: 2;
+  /*background-color: #BBBDF6;*/
+}
+
+.row-1col-3 {
+  grid-row: 2;
+  /*background-color: #00C49A;*/
+}
+
+.mainrow-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.row-2col-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding-top: 40px;
+}
+
+.subcol-1{ 
+  grid-row: 1;
+  background-color: #274254;
+  padding-bottom: 50%;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.subcol-2{
+  background-color: #BBBDF6;
+  grid-row: 1;
+  padding-bottom: 50%; 
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.subcol-3{
+  grid-row: 1;
+  background-color: #F26430;
+  padding-bottom: 50%; 
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.subcol-4{
+  grid-row: 2;
+  background-color: #BBBDF6;
+  padding-bottom: 50%; 
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.subcol-5{
+  background-color: #F26430;
+  grid-row: 2;
+  padding-bottom: 50%; 
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.subcol-6{
+  grid-row: 2;
+  background-color: #274254;
+  padding-bottom: 50%; 
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.mainrow-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.row-3col-1 {
+  grid-row: 2;
+  /*background-color: #274254;*/
+}
+
+.row-3col-2 {
+  grid-row: 2;
+  /*background-color: #BBBDF6;*/
+}
+
+.row-3col-3 {
+  grid-row: 2;
+  /*background-color: #00C49A;*/
+}
+
+.any-link {
+  color: #00C49A;
 }
