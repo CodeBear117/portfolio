@@ -1,6 +1,3 @@
-import React from 'react';
-import './ProjectsPage.css'
-
 const projects = [
     {
       id: 1,
@@ -26,13 +23,5 @@ const projects = [
       },
   ];
 
-function ProjectsPage() {
-  return (
-    <div>
-      <h1>My Projects</h1>
-      {/* ... other content ... */}
-    </div>
-  );
-}
 
-export default ProjectsPage;
+export default projects;

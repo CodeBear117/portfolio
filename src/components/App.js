@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ButtonGrid from './ButtonGrid';
-import './App.css';
-import BlogPage from './BlogPage';
-import HobbiesPage from './HobbiesPage';
-import ProjectsPage from './ProjectsPage';
+import ButtonGrid from './ButtonGrid.js';
+import './styles/App.css';
+import BlogPage from './BlogPage.js';
+import HobbiesPage from './HobbiesPage.js';
+import ProjectsPage from './ProjectsPage.js';
 
 function App() {
   return (

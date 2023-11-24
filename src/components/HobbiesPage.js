@@ -1,5 +1,5 @@
 import React from 'react';
-import './HobbiesPage.css'
+import './styles/HobbiesPage.css'
 
 function HobbiesPage() {
   return (

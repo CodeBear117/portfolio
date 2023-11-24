@@ -1,5 +1,5 @@
 import React from 'react';
-import './BlogPage.css'
+import './styles/BlogPage.css'
 import { Link } from 'react-router-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ArticleDetail from './ArticleDetail';
