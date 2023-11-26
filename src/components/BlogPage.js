@@ -18,7 +18,7 @@ function BlogPage() {
       <Route path="/Blog/:1" element={<ArticleDetail />} />
       </Routes>
       <div className="blog-left-column">
-        {/* Left column content */}
+        {/* Left column content - empty for aesthetics */}
       </div>
       <div className="blog-center-column">
         <h1>Blog</h1>
@@ -31,7 +31,7 @@ function BlogPage() {
         ))}
       </div>
       <div className="blog-right-column">
-        {/* Right column content */}
+        {/* Right column content - empty for aesthetics */}
       </div>
     </div>  
   );
