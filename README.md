@@ -12,7 +12,7 @@ The following projects are available in my public and private repos:
 5. *andycotton.com Portfolio* (a website I built for a client)
 
 ⚡️ **Technologies:** 
-The following technlogies were used within the projects contained in my portfolio.
+The following technologies were used within the projects contained in my portfolio.
 1. Languages:
    + JavaScript/TypeScript
    + Python
